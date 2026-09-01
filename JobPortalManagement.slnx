@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DomainJobPortal/DomainJobPortal.csproj" />
+  <Project Path="JobPortalManagement/JobPortalManagement.csproj" />
+</Solution>

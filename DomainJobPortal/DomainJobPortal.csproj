@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Service\Admin\DTOs\" />
+    <Folder Include="Service\Admin\Interfaces\" />
+    <Folder Include="Service\AuthUser\DTOs\" />
+    <Folder Include="Service\AuthUser\Interfaces\" />
+    <Folder Include="Service\Chat\" />
+    <Folder Include="Service\JobProvider\DTOs\" />
+    <Folder Include="Service\JobProvider\Interfaces\" />
+    <Folder Include="Service\JobSeeker\DTOs\" />
+    <Folder Include="Service\JobSeeker\Interfaces\" />
+    <Folder Include="Service\Job\DTOs\" />
+    <Folder Include="Service\Job\Interfaces\" />
+    <Folder Include="Service\Login\DTOs\" />
+    <Folder Include="Service\Login\Interfaces\" />
+    <Folder Include="Service\Profile\DTOs\" />
+    <Folder Include="Service\Profile\Interfaces\" />
+    <Folder Include="Service\SignUp\DTOs\" />
+    <Folder Include="Service\SignUp\Interfaces\" />
+  </ItemGroup>
+
+</Project>
