@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Extensions\" />
     <Folder Include="Helpers\" />
     <Folder Include="Enums\" />
+    <Folder Include="Models\" />
     <Folder Include="Services\Admin\DTOs\" />
     <Folder Include="Services\Admin\Interfaces\" />
     <Folder Include="Services\Authuser\DTOs\" />
