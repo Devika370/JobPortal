@@ -9,8 +9,11 @@
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="Helpers\" />
+<<<<<<< HEAD
     <Folder Include="Enums\" />
     <Folder Include="Models\" />
+=======
+>>>>>>> 292acb51f645f410292db0aa7b0f40d38e55f1af
     <Folder Include="Services\Admin\DTOs\" />
     <Folder Include="Services\Admin\Interfaces\" />
     <Folder Include="Services\Authuser\DTOs\" />
@@ -28,6 +31,18 @@
     <Folder Include="Services\Profile\Interfaces\" />
     <Folder Include="Services\SignUp\DTOs\" />
     <Folder Include="Services\SignUp\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.1.3" />
+    <PackageReference Include="MailKit" Version="4.16.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MimeKit" Version="4.16.0" />
   </ItemGroup>
 
 </Project>
