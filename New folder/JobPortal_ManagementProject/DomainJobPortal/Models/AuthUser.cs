@@ -17,5 +17,10 @@ namespace DomainJobPortal.Models
         public EmailVerificationStatus  Status { get; set; }
         public bool IsActive { get; set; } = true;
         public DateTime CreatedAt {  get; set; }
+
+
+        public JobProvider JobProvider { get; set; } //Navigation Property
     }
+
+
 }

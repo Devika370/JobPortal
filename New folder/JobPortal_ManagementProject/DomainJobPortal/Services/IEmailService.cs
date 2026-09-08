@@ -1,4 +1,5 @@
 ﻿
+using DomainJobPortal.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace DomainJobPortal.Services
 {
-    internal interface IMailService
+    public interface IEmailService
     {
+        Task SendEmailAsync(MailRequest mailRequest);
     }
 }

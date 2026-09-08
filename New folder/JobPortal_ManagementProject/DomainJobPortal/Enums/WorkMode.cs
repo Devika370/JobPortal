@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace DomainJobPortal.Enums
 {
-    public enum EmailVerificationStatus
+    public enum WorkMode
     {
-        Pending,
-        EmailVerified
-        
+        Remote,
+        Onsite,
+        Hybrid
     }
 }
-
-

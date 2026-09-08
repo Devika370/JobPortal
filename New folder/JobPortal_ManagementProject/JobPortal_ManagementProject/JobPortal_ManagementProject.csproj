@@ -29,7 +29,6 @@
     <Folder Include="API\JobSeeker\" />
     <Folder Include="API\Chat\" />
     <Folder Include="API\Job\" />
-    <Folder Include="Extensions\" />
     <Folder Include="JobSeeker\" />
     <Folder Include="HubConfig\" />
   </ItemGroup>

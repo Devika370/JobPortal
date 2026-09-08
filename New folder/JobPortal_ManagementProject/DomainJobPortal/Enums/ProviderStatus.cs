@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DomainJobPortal.Enums
 {
-    public enum EmailVerificationStatus
+    public enum ProviderStatus
     {
         Pending,
-        EmailVerified
-        
+        Approved,
+        Rejected,
+        Suspended
     }
 }
-
 
